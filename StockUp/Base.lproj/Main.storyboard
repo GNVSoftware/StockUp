@@ -94,7 +94,7 @@
         <!--Item 1-->
         <scene sceneID="BCw-sV-DQS">
             <objects>
-                <viewController id="Xcl-Af-K3b" sceneMemberID="viewController">
+                <viewController id="Xcl-Af-K3b" customClass="searchRidesViewController" customModule="StockUp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ret-gf-Cio">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
