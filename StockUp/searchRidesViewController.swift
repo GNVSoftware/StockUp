@@ -71,8 +71,7 @@ class searchRidesViewController: UIViewController, CLLocationManagerDelegate{
         let task : NSURLSessionDataTask = session.dataTaskWithRequest(request,
             completionHandler: { (dataOrNil, response, error) in
                 if let data = dataOrNil {
-                    let dataString = NSString(data: data, encoding: NSUTF8StringEncoding)
-                    print(dataString!)
+                    // We get the Rides here!!
                 }
         });
         task.resume()

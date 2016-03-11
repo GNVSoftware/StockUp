@@ -82,17 +82,17 @@ class postRidesViewController: UIViewController {
         //EZLoadingActivity.show("Loading...", disableUI: false)
         if (destination!.name != "" && seatsAvail != 0) {
             
-            rideModel.postRide(destination!, price: price, seatsAvailable: seatsAvail, withCompletion: { (success: Bool, error: NSError?) -> Void in
-                if let error = error {
-                    print(error.localizedDescription)
-                    
-                    
-                } else {
-                    print("Posted Ride Successfully")
-                    //EZLoadingActivity.hide()
-                    
-                }
-            })
+//            rideModel.postRide(destination!, price: price, seatsAvailable: seatsAvail, withCompletion: { (success: Bool, error: NSError?) -> Void in
+//                if let error = error {
+//                    print(error.localizedDescription)
+//                    
+//                    
+//                } else {
+//                    print("Posted Ride Successfully")
+//                    //EZLoadingActivity.hide()
+//                    
+//                }
+//            })
         }
     }
 

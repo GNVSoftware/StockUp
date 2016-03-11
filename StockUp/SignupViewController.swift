@@ -50,7 +50,7 @@ class SignupViewController: UIViewController {
                 if error?.code == 202 {
                     print("Username is taken")
                 }else{
-                    var alert = UIAlertView(title: "Error", message: "\(error)", delegate: self, cancelButtonTitle: "OK")
+                    let alert = UIAlertView(title: "Error", message: "\(error)", delegate: self, cancelButtonTitle: "OK")
                     alert.show()
 
                 }
