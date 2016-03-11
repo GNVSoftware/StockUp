@@ -6,5 +6,6 @@ use_frameworks!
 target 'StockUp' do
 pod ‘Parse’
 pod ‘GoogleMaps’
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 end
 
