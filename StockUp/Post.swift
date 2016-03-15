@@ -22,22 +22,24 @@ class Post: NSObject {
         
         newRide["destinationAddress"] = destination.formattedAddress!.componentsSeparatedByString(", ").joinWithSeparator("\n")
         
-        let destPoint = PFGeoPoint(latitude:destination.coordinate.latitude, longitude:destination.coordinate.longitude )
-        newRide["destinationLatitude"] = destination.coordinate.latitude
-        newRide["destinationLongitude"] = destination.coordinate.longitude
+        //let destPoint = PFGeoPoint(latitude:destination.coordinate.latitude, longitude:destination.coordinate.longitude )
+        //newRide["destinationLatitude"] = destination.coordinate.latitude
+        //newRide["destinationLongitude"] = destination.coordinate.longitude
         
         
-        newRide["currentLatitude"] = currentLatitude
-        newRide["currentLongitude"] = currentLongitude
+        //newRide["currentLatitude"] = currentLatitude
+        //newRide["currentLongitude"] = currentLongitude
         
         
         newRide["destinationName"] = destination.name
         newRide["driver"] = PFUser.currentUser()
+        //newRide["driverEmail"] = PFUser.currentUser()?.email
         
         
-        newRide["fromLocation"] = [currentLatitude, currentLongitude]
+        //newRide["fromLocation"] = [currentLatitude, currentLongitude]
         
         newRide["destinationLocation"] = [destination.coordinate.latitude, destination.coordinate.longitude]
+        newRide["currentLocation"] = [currentLatitude, currentLongitude]
         
         newRide.saveInBackgroundWithBlock(completion)
     }
