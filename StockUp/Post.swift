@@ -38,8 +38,8 @@ class Post: NSObject {
         
         //newRide["fromLocation"] = [currentLatitude, currentLongitude]
         
-        newRide["destinationLocation"] = [destination.coordinate.latitude, destination.coordinate.longitude]
-        newRide["currentLocation"] = [currentLatitude, currentLongitude]
+        newRide["destinationLocation"] = [destination.coordinate.longitude, destination.coordinate.latitude]
+        newRide["currentLocation"] = [currentLongitude, currentLatitude]
         
         newRide.saveInBackgroundWithBlock(completion)
     }
