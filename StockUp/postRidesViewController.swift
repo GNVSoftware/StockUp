@@ -12,7 +12,7 @@ import GoogleMaps
 
 class postRidesViewController: UIViewController, CLLocationManagerDelegate {
     
-    var locationManager: CLLocationManager!
+    
     /*
     var resultsViewController: GMSAutocompleteResultsViewController?
     var searchController: UISearchController?
@@ -58,13 +58,14 @@ class postRidesViewController: UIViewController, CLLocationManagerDelegate {
         
         // Do any additional setup after loading the view.
         //let destPoint = PFGeoPoint(latitude:destination.coordinate.latitude, longitude:destination.coordinate.longitude )
+        /*
         locationManager = CLLocationManager()
         locationManager.delegate = self
         locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters
         locationManager.distanceFilter = 200
         locationManager.requestWhenInUseAuthorization()
         locationManager.requestAlwaysAuthorization()
-        
+        */
         placesClient = GMSPlacesClient()
         
         placesClient.currentPlaceWithCallback({ (placeLikelihoods, error) -> Void in
