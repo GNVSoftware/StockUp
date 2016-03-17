@@ -15,8 +15,11 @@
 		0AE91D4D1C6428EE00D2E2C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE91D4B1C6428EE00D2E2C8 /* Main.storyboard */; };
 		0AE91D4F1C6428EE00D2E2C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AE91D4E1C6428EE00D2E2C8 /* Assets.xcassets */; };
 		0AE91D521C6428EE00D2E2C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AE91D501C6428EE00D2E2C8 /* LaunchScreen.storyboard */; };
+<<<<<<< HEAD
 		815399C91C9A72D700D42530 /* searchRidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815399C81C9A72D700D42530 /* searchRidesViewController.swift */; };
 		815399CC1C9A732400D42530 /* rideCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 815399CB1C9A732400D42530 /* rideCell.swift */; };
+=======
+>>>>>>> dev
 		8166EB111C98CB34002F7CAB /* searchRides.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8166EB0F1C98CB34002F7CAB /* searchRides.storyboard */; };
 		8166EB131C98CB5D002F7CAB /* postRide.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8166EB121C98CB5D002F7CAB /* postRide.storyboard */; };
 		8A65B23828E086960CBDCD33 /* Pods_StockUp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88A062A8EFFA275141B01940 /* Pods_StockUp.framework */; };
@@ -38,8 +41,11 @@
 		0AE91D531C6428EE00D2E2C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2FBCF079908814713BBAE418 /* Pods-StockUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockUp.release.xcconfig"; path = "Pods/Target Support Files/Pods-StockUp/Pods-StockUp.release.xcconfig"; sourceTree = "<group>"; };
 		75649DB13D7A8FFA32449589 /* Pods-StockUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StockUp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-StockUp/Pods-StockUp.debug.xcconfig"; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		815399C81C9A72D700D42530 /* searchRidesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = searchRidesViewController.swift; sourceTree = "<group>"; };
 		815399CB1C9A732400D42530 /* rideCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rideCell.swift; sourceTree = "<group>"; };
+=======
+>>>>>>> dev
 		8166EB101C98CB34002F7CAB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/searchRides.storyboard; sourceTree = "<group>"; };
 		8166EB121C98CB5D002F7CAB /* postRide.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = postRide.storyboard; sourceTree = "<group>"; };
 		88A062A8EFFA275141B01940 /* Pods_StockUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StockUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,10 +79,14 @@
 			isa = PBXGroup;
 			children = (
 				0A03E75F1C91BE0400E8F21D /* postRidesViewController.swift */,
+				B59FD4BD1C9201DA00A476B3 /* ProfileViewController.swift */,
 				B59FD4B91C9201B200A476B3 /* LoginViewController.swift */,
 				B59FD4BB1C9201CA00A476B3 /* SignupViewController.swift */,
+<<<<<<< HEAD
 				B59FD4BD1C9201DA00A476B3 /* ProfileViewController.swift */,
 				815399C81C9A72D700D42530 /* searchRidesViewController.swift */,
+=======
+>>>>>>> dev
 			);
 			name = ViewControllers;
 			sourceTree = "<group>";
