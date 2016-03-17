@@ -32,7 +32,7 @@ class Post: NSObject {
         
         
         newRide["destinationName"] = destination.name
-        newRide["driver"] = PFUser.currentUser()
+        newRide["driverID"] = PFUser.currentUser()?.objectId
         //newRide["driverEmail"] = PFUser.currentUser()?.email
         
         
